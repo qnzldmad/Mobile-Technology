@@ -1,0 +1,494 @@
+/* CSS for Navigation Bar */
+/* Used by index, afterLogin, aboutUsBe, aboutUsAf */
+.navigation li{
+    display: block;
+}
+
+.navigation a0 {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: context-menu;
+}
+
+.navigation a {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner img {
+    width: 50%;
+    height: 20vh;
+}
+
+/* CSS for Image in Main Page */
+/* Used by index, afterLogin */
+.mainImage img {
+    position: fixed;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+/* CSS for Text above Main Page Image */
+/* Used by index, afterLogin */
+.imageText {
+    padding: 5px 10px;
+    background-color: transparent;
+    text-align: center;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imageText p {
+    font-size: 4vw;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageText a1 {
+    font-size: 1vw;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS for intro div */
+/* Used by aboutUsBe, aboutUsAf */
+.intro {
+    background-color: #E1EFF2;
+}
+
+.intro h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+}
+
+
+/* CSS for explain div */
+/* Used by aboutUsBe, aboutUsAf */
+#explainDe {
+    border-radius: 25px;
+    padding: 5px 10px;
+    background-color: #00A2E8;
+    width: 30vw;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+}
+
+#explainCu {
+    border-radius: 25px;
+    padding: 5px 10px;
+    background-color: #ED1C24;
+    width: 30vw;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+}
+
+.display {
+    display: flex;
+}
+
+.figureDe {
+    width: 24%;
+}
+
+.figureDe img {
+    width:100%;
+    height: 15vw;
+    padding: 1vw;
+    margin-left: 1vw
+}
+
+.figureDe figcaption {
+    font-weight: bold;
+    font-size: 1vw;
+    padding: 1vw;
+    margin-left: 1vw
+}
+
+.figureCu {
+    width: 33%;
+}
+
+.figureCu img {
+    width:100%;
+    height: 15vw;
+    padding: 1vw;
+    margin-left: 1vw;
+}
+
+.figureCu figcaption {
+    font-weight: bold;
+    font-size: 1vw;
+    padding: 1vw;
+    margin-left: 1vw
+}
+
+#extraOr {
+    font-size: 4vw;
+}
+
+/* CSS for login div */
+/* Used by login */
+
+.login img {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+}
+
+.login p {
+    font-size: 4vw;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 17vw;
+    margin-bottom: 0vw;
+}
+/* CSS for loginText div */
+/* Used by login */
+.loginText {
+    padding: 5px 10px;
+    background-color: transparent;
+    text-align: center;
+    position: fixed;
+    top: 13vw;
+    left: 35vw;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* CSS for inputIdPw div */
+/* Used by login */
+.inputIdPw {
+    padding: 5px 10px;
+    background-color: transparent;
+    text-align: center;
+    position: fixed;
+    top: 19vw;
+    left: 35vw;
+}
+
+.id {
+    margin-bottom: 1.5vw;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    border-radius: 5px;
+    width: 28vw;
+}
+
+.pw {
+    margin-top: 1.5vw;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    border-radius: 5px;
+    width: 28vw;
+}
+
+.inputLogin {
+        width: 100%;
+        padding: 10px;
+        margin-top: 2vw;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: blue;
+        color: white;
+}
+
+.btnSignup {
+        width: 100%;
+        padding: 10px;
+        margin-top: 1vw;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: green;
+        color: white;
+}
+
+.findUnPss {
+    font-size: 1vw;
+    background-color: transparent;
+    border: none;
+    margin-top: 1vw;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+/* CSS for register div */
+/* Used by register */
+.register {
+    position: relative;
+  }
+
+  .register img {
+      position: absolute;
+      width: 100%;
+      height: auto;
+  }
+
+  .reFieldset {
+      position: absolute;
+      left: 50vw;
+      top: 6vw;
+      width: 45%;
+      height: auto;
+  }
+
+  .reFieldset p {
+      text-align: center;
+      margin-bottom: 1.5vw;
+      font-size: 1.2vw;
+      font-weight: bold;
+  }
+
+  #lineBefore {
+      width: 100%;
+      border-bottom: 2px solid #3a3a3a;
+      font-weight: bold;
+  }
+
+  #lineNext {
+      width: 100%;
+      margin-top: 1vw;
+      font-weight: bold;
+  }
+
+  #lineNext td, th {
+    width: 100%;
+    margin-top: 1vw;
+    padding: 0.5vw;
+}
+
+#lineBefore td, th {
+    width: 100%;
+    margin-top: 1vw;
+    padding: 0.5vw;
+}
+
+#lineBefore a {
+    color: red;
+    font-weight: bold;
+}
+
+#lineNext a {
+    color: red;
+    font-weight: bold;
+}
+
+.reSubmit {
+    position: absolute;
+    right: 1%;
+    top: 102%;
+    width: 6vw;
+    height: 6vh;
+    cursor: pointer;
+}
+
+  .info {
+    outline: none;
+    border-bottom: solid #3a3a3a;
+    width: 28vw;
+    height: 2vh;
+  }
+
+/* CSS for profileTable div */
+/* Used by userProgile */
+
+.userProfile {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 60%;
+    box-shadow: 0 1vw 2vw 0;
+}
+
+.userPic {
+    width: 24%;
+    background-color: blue;
+}
+
+.userInfo {
+    width: 38%;
+    background-color: yellow;
+}
+
+.infoData {
+    border-bottom: blue;
+}
+
+.unitInfo {
+    width: 38%;
+    background-color: violet;
+}
+
+.btnEd {
+    position: absolute;
+    width: 10%;
+    top: 85%;
+    right: 10%;
+    cursor: pointer;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2vw;
+}
+
+.side {
+    position: relative;
+}
+
+.sideNav {
+    height: 71vh;
+    width: 15vw;
+    top: 0.2vw;
+    position: absolute;
+    left: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sideNav a {
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    display: block;
+  }
+
+.sideTopBottom {
+    background-color: black;
+}
+
+.sideMiddle {
+    background-color: #444343;
+}
+
+.moField {
+    position: relative;
+}
+
+  .modifyField {
+      position: absolute;
+      left: 15.5vw;
+      top: 1vw;
+      width: 82%;
+      height: auto;
+  }
+
+.modifyField label {
+    font-size: 1vw;
+}
+
+.modifyField p{
+    font-size: 1.5vw;
+}
+
+.modifyLegend {
+    font-size: 2vw;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+}
+
+#company, #installed {
+    width: 35%;
+    height: 48vh;
+}
+
+#btnCom, #btnInst {
+    width: 40%;
+    height: 12vh;
+    margin-top: 1vw;
+    margin-left: 6vw;
+    margin-bottom: 1vw;
+    background-color: skyblue;
+    font-size: 2vw;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#location {
+    position: relative;
+}
+
+#addCom {
+    position: absolute;
+    left: 50%;
+    top: 6vw;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#company {
+    position: absolute;
+    left: 10%;
+    margin-top: 1.5vw;
+}
+
+#installed {
+    position: absolute;
+    left: 30%;
+    margin-top: 1.5vw;
+}
+
+
+#btnKl {
+    margin-top: 0.5vw;
+    margin-left: 6vw;
+    margin-bottom: 1vw;
+}
+
+#btnKl, #btnJohor, #btnSabah, #btnSarawak {
+    width: 21.4%;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    font-size: 1vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.findField {
+    width: 20%;
+    height: auto;
+    margin:auto;
+}
+
+.updatePssField {
+    width: 40%;
+    margin: auto;
+}
+
+.updatePssLegend {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
