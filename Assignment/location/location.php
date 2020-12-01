@@ -58,7 +58,7 @@
         </div>
 
 <script src="../script.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbB67XdJxRUApNURaliKE9cqEe-ZWlO-0&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=Your-API-Key&callback=myMap"></script>
     </div>
 </body>
 </html>
